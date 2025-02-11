@@ -69,28 +69,41 @@
         }
 
         /* Responsividade */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 24px;
-            }
+ /* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
 
-            section {
-                margin: 20px;
-                padding: 15px;
-            }
+    section {
+        margin: 20px;
+        padding: 15px;
+    }
 
-            h2 {
-                font-size: 20px;
-            }
+    h2 {
+        font-size: 20px;
+    }
 
-            h3, h4 {
-                font-size: 16px;
-            }
+    h3, h4 {
+        font-size: 16px;
+    }
 
-            footer p {
-                font-size: 12px;
-            }
-        }
+    footer p {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 100%;  /* Faz com que o iframe se ajuste à tela */
+        height: auto;  /* Mantém a proporção do vídeo */
+    }
+
+    /* Ajustando seções para melhorar a visualização no celular */
+    .sla {
+        padding: 15px;
+        margin: 10px 0;
+    }
+}
+
 
     </style>
 </head>
@@ -108,8 +121,8 @@
     
     <section class="sla">
         <h2>Meu Trabalho em Vídeo</h2>
-     <iframe width="853" height="480" src="https://www.youtube.com/embed/MVy9ZbZ370o" title="propaganda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
+    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/MVy9ZbZ370o" title="propaganda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
 
     <section class="sla">
         <h2>Contato</h2>
